@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size: 50px;
+}
+.name_highlight{
+    color: orange;
+}
+img{
+    width: 100%;
+}
+#hero{
+    background: url(images/top-banner.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+}
+.container {
+	width: 1140px;
+	margin: auto;
+	padding: 50px 0px;
+	overflow: hidden;
+}
+.half_width{
+    width: 50%;
+    float: left;
+}
+.experience-half {
+	width: 40%;
+	float: left;
+	box-shadow: 5px 7px 40px gray;
+	padding: 30px;
+	border-left: 5px solid;
+	border-image: linear-gradient(180deg, lightsalmon, tomato);
+	border-image-slice: 1;
+}
+.one {
+	margin-right: 35px;
+	margin-left: 35px;
+    border-left: 5px solid;
+	border-image: linear-gradient(180deg, blue, cyan);
+	border-image-slice: 1;
+}
+.anchor-button {
+	text-decoration: none;
+	background: linear-gradient(45deg, lightsalmon, tomato);
+	padding: 10px 40px;
+	border-radius: 5px;
+	color: white;
+	font-weight: 700;
+}
+.about-content {
+	padding-left: 79px;
+	box-sizing: border-box;
+	padding-top: 40px;
+}
+#about{
+    background-position: right;
+    background-repeat: no-repeat;
+}
+#experience{
+    background-image: url(images/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 166px;
+}
